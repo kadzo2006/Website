@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#news">About</a>
+    <a href="#news">Contact</a>
+    <div class="search-container">
+      <form id="searchForm">
+        <input type="text" placeholder="Search..." name="search">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  
+
+  <div style="padding-left:16px">
+    <h2>Content</h2>
+    <p>This is where your music content will be displayed.</p>
+  </div>
+
+ <!-- New Releases Section -->
+ <section id="newReleases">
+  <h2>New Releases</h2>
+  <div id="newReleasesContainer">
+      <!-- New releases will be displayed here dynamically -->
+  </div>
+</section>
+
+
+<!--music reviews and rating-->
+<h1>Welcome to Our Music Website</h1>
+    
+<!-- Form to submit reviews -->
+<form id="reviewForm">
+    <label for="username">Your Name:</label>
+    <input type="text" id="username" required>
+    <label for="rating">Rating:</label>
+    <select id="rating" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <label for="comment">Your Review:</label>
+    <textarea id="comment" rows="4" required></textarea>
+    <button type="submit">Submit Review</button>
+</form>
+
+<!-- Container for displaying reviews -->
+<div id="reviewsContainer">
+    <!-- Reviews will be displayed here dynamically -->
+</div> 
+
+<!--music news and articles-->
+   <!-- News Section -->
+   <section id="news">
+    <h2>Latest Music News</h2>
+    <div id="newsContainer">
+        <!-- News articles will be displayed here dynamically -->
+    </div>
+</section>
+
+<!-- Articles Section -->
+<section id="articles">
+    <h2>Featured Articles</h2>
+    <div id="articlesContainer">
+        <!-- Articles will be displayed here dynamically -->
+    </div>
+</section>
+
+<section class="featured">
+  <h2>Featured Songs</h2>
+  <!-- Featured songs content goes here -->
+</section>
+
+
+<div class="social-sharing">
+  <h2>Share</h2>
+  <button class="share-btn facebook">Share on Facebook</button>
+  <button class="share-btn twitter">Share on Twitter</button>
+  <button class="share-btn instagram">Share on Instagram</button>
+</div>
+
+<footer>
+  <p>&copy; 2024 Music Website</p>
+</footer>
+  
+  <script src="script.js"></script>
+  </body>
+  </html>
+  
+  
+  
